@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[gui]
+	wmstate = normal
+	geometry = 887x427+26+26 171 192
+[remote "firstcommit"]
+	url = documents
+	fetch = +refs/heads/*:refs/remotes/firstcommit/*
